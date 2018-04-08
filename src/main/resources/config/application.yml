@@ -1,0 +1,15 @@
+server:
+  port: 8761
+  context-path: /registry
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+    
+#log
+logging:
+  config: classpath:config/logback-spring.xml
+  path: /application/log/eureka_logs
