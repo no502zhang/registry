@@ -1,7 +1,8 @@
 server:
   # server (eureka 默认端口为：8761)
   port: 8761
-  context-path: /registry
+  servlet:
+    context-path: /registry
 
 eureka:
   #---------------eureka客户端---------------
