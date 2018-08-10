@@ -6,7 +6,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer
 
 @SpringBootApplication
 @EnableEurekaServer
-open class App
+class App
 
 fun main(args: Array<String>) {
     SpringApplication.run(App::class.java, *args)
