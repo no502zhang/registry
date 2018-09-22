@@ -1,5 +1,4 @@
 server:
-  # server (eureka 默认端口为：8761)
   port: 8761
   servlet:
     context-path: /registry
